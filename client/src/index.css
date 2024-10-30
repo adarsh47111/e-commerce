@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+.img-magnifier-container {
+  position: relative;
+}
+
+.magnifier-img {
+  width: auto;
+  height: 80vh;
+}
+
+.magnifier-image {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #fff;
+} */
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+  min-width: 100%;
+  object-fit: cover;
+}
+/* 
+* {
+  color-scheme: dark;
+} */
